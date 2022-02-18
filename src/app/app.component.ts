@@ -10,11 +10,7 @@ export class AppComponent implements OnInit{
   telefono = "";
   dni = 0;
 
-  constructor(){}
-
-  ngOnInit(): void {
-      
-  }
+ 
 
   cambiaDni(valor: any) {
     // Podes consultar el valor por consola
@@ -25,6 +21,11 @@ export class AppComponent implements OnInit{
   onClick() {
     alert('Hiciste click!!');
   }
+  
+  constructor(){}
 
+  ngOnInit(): void {
+      
+  }
 }
 
